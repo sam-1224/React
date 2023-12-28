@@ -6,7 +6,7 @@ function App() {
   const [charsAllowed, setCharsAllowed] = useState(false);
   const [password, setPassword] = useState("");
 
-
+ 
   //useref hook
   const passwordRef = useRef(null)
 
@@ -54,7 +54,7 @@ function App() {
         />
         <button 
         onClick={copyPasswordtoClipboard}
-        className="outline-none bg-blue-800 px-4 py-0.5 text-white">Copy</button>
+        className="outline-none bg-blue-700 hover:bg-blue-900 px-4 py-0.5 text-white font-medium">Copy</button>
       </div>
 
       <div className="flex overflow-hidden my-2 py-2 px-4 gap-6 ">
